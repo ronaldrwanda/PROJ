@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="C:\Users\R\Desktop\flash\Coding\my app\2\bootstrap.min.css">
+    
+    <div>
+        <title>E-SIGNATURE</title>
+
+    </div>
+   
+</head>
+<body>
+
+    <!-- I have to put my header here: this header has more codes but i can put it in another file once i know how to link both html....-->
+    <nav class="navbar shadow-sm p-3 mb-5  sticky-top bg-dark border-bottom border-body" data-bs-theme="dark">
+        
+        <div class="container-fluid">
+            <img src="C:\Users\R\Desktop\flash\Coding\my app\2\static image\logo.jpg" alt="Logo" width="30" height="23" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="#"><b>E-SIGNATURE</b></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><b>E-SIGNATURE</b></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="C:\Users\R\Desktop\flash\Coding\my app\2\offnavbar\aboutus.html">MY PROFILE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\R\Desktop\flash\Coding\my app\2\offnavbar\howit.html">SIGN UP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="C:\Users\R\Desktop\flash\Coding\my app\2\offnavbar\help.html">LOG OUT</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </div>
+   </nav>
+
+   <div class="container">
+ 
+    <!-- here is the background of buttons as their box-->
+    <style>
+        .my-main-button{
+            background: #dfe5e6;
+            height: 400px;
+        }
+    </style>
+
+    <div class="text-center mt-4 mb-4">
+        <h1>E-SIGNATURE</h1>
+    </div>
+    
+    
+    <div class="row my-main-button">
+
+        <div class="col g-0">
+            <button class="col-12 btn btn-primary">Inbox</button>
+        </div>
+        <div class="col g-0">
+           <button class="col-12 btn btn-primary ">Received</button>
+        </div>
+        <div class="col g-0">
+            <button class="col-12  btn btn-primary ">Sent</button>
+        </div>
+    </div>
+    
+    
+        <div class="bottom-buttons text-center mt-4 mb-4">
+            <!-- for contact i want to make it so when some one clicks on his GMAIL must open up send a meesage to the email of the platform-->
+            <button class="btn btn-light">Contact Us</button>
+
+            <!-- Button trigger modal of PRIVACY-->
+           
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            PRIVACY
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">PRIVACY</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+              <p class="lead">
+                <!-- where to put some privacy of the website -->
+                At E-SIGNATURE, we value your privacy and are committed to protecting your personal information.
+                Our Privacy Policy explains how we collect, use, and safeguard your data as you engage with our platform. 
+                Rest assured that your information is handled with the utmost care and security.
+                  
+              </p>
+         </div>
+        <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             
+        </div>
+        </div>
+        </div>
+        </div>
+
+      
+
+     <!-- Button trigger modal of POLICIES-->
+           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            POLICIES
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">POLICIES</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+              <p class="lead">
+               <!-- where to put some policies-->
+               Our Policies outline the guidelines and rules governing the use of our electronic document sharing and signing platform.
+                By using our services, you agree to adhere to these policies, ensuring a secure and respectful environment for all members.
+                  
+              </p>
+         </div>
+        <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Button trigger modal of TERMS-->
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            TERMS
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">TERMS AND CONDITION</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+              <p class="lead">
+                <!-- where to put some terms and conditions -->
+                By accessing and using our electronic document sharing and signing services, you acknowledge and agree to abide by our Terms and Conditions.
+                These terms cover various aspects of your usage, rights, and responsibilities, ensuring a smooth and productive experience for all users.
+                  
+              </p>
+         </div>
+        <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Button trigger modal of ABOUT US-->
+           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            ABOUT US
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">ABOUT US</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+              <p class="lead">
+                
+                Your cross-platform solution for remote service accessibility. 
+                Available on both Android and PC, E-SIGNATURE streamlines distant service provision, 
+                empowering users to conveniently access services by electronically signing necessary documents.
+                With a secure and user-friendly interface, the app ensures the legality and privacy of digital signatures,
+                allowing you to avoid in-person visits.
+                  
+              </p>
+         </div>
+        <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Button trigger modal of HELP-->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              HELP 
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">HELP</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+                <p class="lead">
+                    Need assistance? Our Help section is here to guide you through every step of using our platform.
+                    From uploading documents to applying electronic signatures, you'll find comprehensive resources, FAQs, 
+                    and contact information to ensure you make the most of our services.
+                </p>
+           </div>
+          <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              
+            </div>
+            </div>
+            </div>
+            
+  </div>
+        </div>
+    </div>
+    </div>
+    <script src="C:\Users\R\Desktop\flash\Coding\my app\2\bootstrap.min.js"> </script>
+</body>
+</html>
